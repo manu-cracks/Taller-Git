@@ -51,3 +51,52 @@ Para ver la página web personal alojada en este repositorio, cambia a la rama c
 
 ```bash
 git checkout biografia
+git log biografia
+```
+
+---
+
+## 🧾 Historial de cambios por rama
+
+El historial del proyecto se organiza en dos ramas principales. La rama `main` contiene la documentación general del repositorio y la rama `biografia` contiene la página web personal.
+
+### Rama `biografia`
+
+Consulta utilizada:
+
+```bash
+git log biografia
+```
+
+| Commit | Fecha | Cambio |
+| :--- | :--- | :--- |
+| `53740eb` | 12 de septiembre de 2026, 10:24 | Actualizar `index.html` y `style.css` |
+| `13698c9` | 12 de septiembre de 2026, 09:46 | Agregar biografía |
+| `1d52684` | 12 de septiembre de 2026, 09:40 | Añadir `README.md` |
+
+<p align="center">
+  <img src="logsbiografia.png" alt="Historial de commits de la rama biografia" width="760">
+</p>
+
+### Rama `main`
+
+Consulta utilizada:
+
+```bash
+git log main
+```
+
+| Commit | Fecha | Cambio |
+| :--- | :--- | :--- |
+| `03fcdc3` | 12 de septiembre de 2026, 10:17 | Actualizar repositorio |
+| `4d04214` | 12 de septiembre de 2026, 10:09 | Actualizar tecnologías y herramientas |
+| `e840e73` | 12 de septiembre de 2026, 10:07 | Actualizar `README.md` |
+| `d0957bc` | 12 de septiembre de 2026, 09:50 | Mejorar README |
+| `633f8ca` | 12 de septiembre de 2026, 09:49 | Actualizar README |
+| `1d52684` | 12 de septiembre de 2026, 09:40 | Añadir `README.md` |
+
+<p align="center">
+  <img src="logsmain.png" alt="Historial de commits de la rama main" width="760">
+</p>
+
+> Nota: los identificadores cortos de commit y la información mostrada corresponden al historial registrado en las capturas incluidas en este repositorio.
