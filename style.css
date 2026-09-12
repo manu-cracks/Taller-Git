@@ -1,0 +1,179 @@
+/* Variables de Diseño y Colores (Estilo Formal / Ejecutivo) */
+:root {
+    --bg-color: #f4f6f9;
+    --card-bg: #ffffff;
+    --text-main: #1e293b;
+    --text-muted: #64748b;
+    --primary: #0f172a; /* Azul marino serio */
+    --accent: #2563eb;  /* Azul institucional sutil */
+    --border-color: #e2e8f0;
+    --radius: 12px;
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+/* Estructura general */
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    padding: 32px;
+    box-shadow: var(--shadow);
+}
+
+/* Encabezado */
+.header-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-container {
+    flex-shrink: 0;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--border-color);
+    background-color: #e2e8f0; /* Color de respaldo si la imagen no existe */
+}
+
+.profile-info h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 4px;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--accent);
+    margin-bottom: 8px;
+}
+
+.location {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
+
+/* Grilla principal */
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.full-width {
+    grid-column: span 2;
+}
+
+section h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--border-color);
+}
+
+/* Contenido de secciones */
+.timeline-item h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text-main);
+    margin-bottom: 4px;
+}
+
+.timeline-item .role {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--accent);
+    margin-bottom: 8px;
+}
+
+.timeline-item .details {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+/* Contacto */
+.contact-text {
+    color: var(--text-muted);
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+}
+
+.contact-links {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary);
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: var(--accent);
+}
+
+/* Pie de página */
+.footer {
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 10px;
+}
+
+/* Diseño adaptable para móviles */
+@media (max-width: 768px) {
+    .header-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .main-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .full-width {
+        grid-column: span 1;
+    }
+    
+    .contact-links {
+        justify-content: center;
+    }
+}
