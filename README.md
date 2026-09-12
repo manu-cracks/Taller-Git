@@ -13,19 +13,21 @@ Repositorio centralizado para el almacenamiento, control de versiones y desplieg
 
 ## 🛠️ Estructura del Repositorio
 
-Este repositorio utiliza una estrategia de múltiples ramas para separar la documentación del código fuente y de la página web personal:
-
-* **`main`**: Rama principal que contiene este archivo `README.md` como documentación raíz y visión general del repositorio.
-* **`biografia`**: Rama dedicada al sitio web de presentación personal (**HTML5** y **CSS3**), que detalla mi perfil académico y trayectoria formativa.
+| Rama | Descripción y Propósito |
+| :--- | :--- |
+| **`main`** | Rama principal que contiene este archivo `README.md` como documentación raíz y visión general del repositorio. |
+| **`biografia`** | Rama dedicada al sitio web de presentación personal (**HTML5** y **CSS3**), que detalla mi perfil académico y trayectoria formativa. |
 
 ---
 
 ## 🎓 Perfil Académico
 
-* **Ocupación**: Estudiante de Ingeniería de Sistemas.
-* **Institución de Educación Superior**: **Universidad Nacional San Cristóbal de Huamanga (UNSCH)** — Facultad de Ingeniería.
-* **Educación Secundaria**: Colegio Emblemático Mariscal Cáceres.
-* **Ubicación**: Ayacucho, Perú.
+| Componente | Detalle |
+| :--- | :--- |
+| **Ocupación** | Estudiante de Ingeniería de Sistemas |
+| **Institución Superior** | **Universidad Nacional San Cristóbal de Huamanga (UNSCH)** — Facultad de Ingeniería |
+| **Educación Secundaria** | Colegio Emblemático Mariscal Cáceres |
+| **Ubicación** | Ayacucho, Perú |
 
 ---
 
@@ -33,11 +35,13 @@ Este repositorio utiliza una estrategia de múltiples ramas para separar la docu
 
 Enfocado en el desarrollo de software, modelado de bases de datos, algoritmos y buenas prácticas de ingeniería:
 
-* **Lenguajes de Programación**: Python, C++, Java, JavaScript.
-* **Desarrollo Web**: HTML5, CSS3 (Diseño responsivo y metodologías modernas).
-* **Simulacion de Redes**: GNS3, imagenes checkpoint, aruba, etc.
-* **Control de Versiones**: Git & GitHub.
-* **Sistemas Operativos**: Entornos Linux.
+| Categoría | Herramientas / Tecnologías |
+| :--- | :--- |
+| **Lenguajes de Programación** | Python, C++, Java, JavaScript |
+| **Desarrollo Web** | HTML5, CSS3 (Diseño responsivo y metodologías modernas) |
+| **Simulación de Redes** | GNS3, imágenes Checkpoint, Aruba, etc. |
+| **Control de Versiones** | Git & GitHub |
+| **Sistemas Operativos** | Entornos Linux |
 
 ---
 
