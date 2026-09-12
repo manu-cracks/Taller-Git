@@ -26,7 +26,8 @@ Este repositorio utiliza una estrategia de múltiples ramas para separar la docu
 
 Enfocado en el desarrollo de software, modelado de bases de datos, algoritmos y buenas prácticas de ingeniería:
 
-* **Lenguajes de Programación**: Python, C++, Java, JavaScript.
+* **servicios de base de datos**: supabase por mcp.
+* **AUtomatizciones: n8n, openclaw.
 * **Desarrollo Web**: HTML5, CSS3 (Diseño responsivo y metodologías modernas).
 * **Control de Versiones**: Git & GitHub.
 * **Sistemas Operativos**: Entornos Linux / Windows.
