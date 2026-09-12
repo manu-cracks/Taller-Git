@@ -35,6 +35,7 @@ Enfocado en el desarrollo de software, modelado de bases de datos, algoritmos y 
 
 * **Lenguajes de Programación**: Python, C++, Java, JavaScript.
 * **Desarrollo Web**: HTML5, CSS3 (Diseño responsivo y metodologías modernas).
+* **Simulacion de Redes**: GNS3, imagenes checkpoint, aruba, etc.
 * **Control de Versiones**: Git & GitHub.
 * **Sistemas Operativos**: Entornos Linux.
 
