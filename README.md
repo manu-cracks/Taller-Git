@@ -1,5 +1,12 @@
 # Repositorio Personal — Manuel Ore Huasaja
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Status-Activo-success?style=flat-square" alt="Status">
+  <img src="https://img.shields.io/badge/Rama-main-blue?style=flat-square" alt="Main Branch">
+  <img src="https://img.shields.io/badge/Universidad-UNSCH-orange?style=flat-square" alt="UNSCH">
+  <img src="https://img.shields.io/badge/Tecnologias-Python_%7C_C%2B%2B_%7C_HTML5-informational?style=flat-square" alt="Technologies">
+</p>
+
 Repositorio centralizado para el almacenamiento, control de versiones y despliegue de mis proyectos académicos, profesionales y páginas de presentación personal. 
 
 ---
@@ -26,8 +33,7 @@ Este repositorio utiliza una estrategia de múltiples ramas para separar la docu
 
 Enfocado en el desarrollo de software, modelado de bases de datos, algoritmos y buenas prácticas de ingeniería:
 
-* **servicios de base de datos**: supabase por mcp.
-* **AUtomatizciones: n8n, openclaw.
+* **Lenguajes de Programación**: Python, C++, Java, JavaScript.
 * **Desarrollo Web**: HTML5, CSS3 (Diseño responsivo y metodologías modernas).
 * **Control de Versiones**: Git & GitHub.
 * **Sistemas Operativos**: Entornos Linux / Windows.
